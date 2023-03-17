@@ -20,11 +20,11 @@ if (nb > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, nb);
 }
-else if (nb == 0)
+if (nb == 0)
 {
 printf("Last digit of %d is %d and is 0\n", n, nb);
 }
-else if (nb < 6 && nb != 0)
+if (nb < 6 && nb != 0)
 {
 printf("Last digit of %d is -%d and is less than 6 and not 0\n", n, nb);
 }
