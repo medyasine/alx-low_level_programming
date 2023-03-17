@@ -7,11 +7,19 @@
 int main(void)
 {
 char s;
-s = 'q';
-while (s <= 'e')
+s = 'a';
+while (s <= 'z')
+{
+if (s == 'q' || s == 'e')
+{
+s++;
+continue;
+}
+else
 {
 putchar(s);
-s--;
+s++;
+}
 }
 putchar('\n');
 return (0);
