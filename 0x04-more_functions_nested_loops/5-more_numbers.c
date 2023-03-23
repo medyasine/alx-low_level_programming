@@ -12,15 +12,11 @@ for (i = 0; i <= 10; i++)
 {
 for (u = 0; u <= 14; u++)
 {
-if (u < 10)
+if (u > 10)
 {
-_putchar(u + '0');
+_putchar((u / 10) + '0');
 }
-else
-{
-_putchar('1');
-_putchar((u - 10) + '0');
-}
+_putchar((u % 10) + '0');
 }
 _putchar('\n');
 }
