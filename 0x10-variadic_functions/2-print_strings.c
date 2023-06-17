@@ -34,4 +34,4 @@ for (index = 0; index < n; index++)
 printf("\n");
 
 va_end(strings);
-}
+ }
