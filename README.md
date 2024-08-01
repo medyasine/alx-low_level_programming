@@ -20,11 +20,21 @@ An application for managing soft skills training in NTT DATA.
    ### 1. Backend
    ```bash
    git clone https://github.com/NTT-DATA-BECA/soft-skills-core.git
-   git clone https://github.com/NTT-DATA-BECA/soft-skills-fe.git
 
-1. setup data in Database :
-   uncomment the block of inserting data in mainfile : softSkillsManagementCoreApplication.java
-      and run application to insert all data in your machine
+
+### Setup Data in Database
+
+To initialize the database with required data, follow these steps:
+
+1. **Modify the Application File**:
+   - Locate the `softSkillsManagementCoreApplication.java` file in the backend source code.
+   - Uncomment the section of the code responsible for inserting initial data. This block is typically commented out to prevent re-insertion during normal application runs.
+
+2. **Run the Application**:
+   - Start the Spring Boot application to execute the data insertion process. This can be done by running the following command in the terminal:
+   ```bash
+   mvn spring-boot:run
+
 
 ## Features 
 
