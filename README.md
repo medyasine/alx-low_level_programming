@@ -1,15 +1,12 @@
-# Soft Skills management
+# Soft Skills Management
 
-an application to managing soft Skills training in NTT DATA
-
+An application for managing soft skills training in NTT DATA.
 ## Table of Contents
 
 - [Installation](#installation)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
 - [Features](#features)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-
-## Installation
 
 ### Prerequisites
 
@@ -23,13 +20,11 @@ an application to managing soft Skills training in NTT DATA
    ### 1. Backend
    ```bash
    git clone https://github.com/NTT-DATA-BECA/soft-skills-core.git
-   
-   ### 2. Frontend
-   ```bash
    git clone https://github.com/NTT-DATA-BECA/soft-skills-fe.git
 
 1. setup data in Database :
    uncomment the block of inserting data in mainfile : softSkillsManagementCoreApplication.java
+      and run application to insert all data in your machine
 
 ## Features 
 
