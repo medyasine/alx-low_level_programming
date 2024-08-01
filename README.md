@@ -1,21 +1,19 @@
-# Project Title
+# Soft Skills management
 
-A brief description of your project, its purpose, and main features.
+an application to managing soft Skills training in NTT DATA
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
 ## Installation
 
 ### Prerequisites
 
+- [JDK](https://www.oracle.com/java/)
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
@@ -24,29 +22,73 @@ A brief description of your project, its purpose, and main features.
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/yourproject.git
-# Project Title
 
-A brief description of your project, its purpose, and main features.
+1. setup data in Database :
+   uncomment the block of inserting data in mainfile : softSkillsManagementCoreApplication.java
 
-## Table of Contents
+## Features 
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+### 1. Admin Features
+- **User Management**: The admin is responsible for managing user accounts. This includes:
+  - Adding new users to the system.
+  - Updating existing user information.
+  - Deleting user accounts.
 
-## Installation
+### 2. User Manager Features
+- **Group Management**: 
+  - Create, update, and delete training groups.
+  
+- **Module Management**: 
+  - Define and manage training modules focused on soft skills, including:
+    - Specifying module names.
+    - Setting durations.
+    - Outlining necessary resources.
+  - Update and delete existing modules as needed.
 
-### Prerequisites
+- **Training Session Scheduling**:
+  - Schedule training sessions by:
+    - Setting dates and times.
+    - Specifying locations.
+  
+- **Automated Invitations via Teams**: 
+  - Automatically send email invitations for training sessions.
+  
+- **Attendance Management**: 
+  - Track and manage attendance of employees in training sessions.
+  
+- **Employee Categorization**: 
+  - Group employees into categories based on specific criteria.
+  
+- **Absence Justification Requests**: 
+  - Request justifications from employees for their absences.
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/)
+- **Authentication**: 
+  - Ensure proper identification of users before granting access to certain functionalities.
 
-### Setup
+### 3. Coach Features
+- **Module Instruction**: 
+  - Responsible for teaching training modules.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/yourproject.git
+- **Training Session Facilitation**: 
+  - Lead and conduct training sessions, ensuring content is delivered effectively and understood by participants.
+
+### 4. Supervisor Features
+- **Employee Supervision**: 
+  - Monitor employee engagement in training and work tasks.
+  
+- **Project Supervision**: 
+  - Oversee ongoing projects to ensure they are executed efficiently and meet the set expectations.
+  
+- **Absence Justification Requests**: 
+  - Request justifications for employee absences, ensuring proper authentication.
+
+### 5. Employee Features
+- **Receive Invitations**: 
+  - Receive email invitations for scheduled training sessions.
+  
+- **Attend Training Sessions**: 
+  - Participate in training sessions as required.
+  
+- **Provide Absence Justifications**: 
+  - Provide justifications for any absences from training sessions or work.
+
