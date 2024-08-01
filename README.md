@@ -20,8 +20,13 @@ an application to managing soft Skills training in NTT DATA
 ### Setup
 
 1. Clone the repository:
+   ### 1. Backend
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/NTT-DATA-BECA/soft-skills-core.git
+   
+   ### 2. Frontend
+   ```bash
+   git clone https://github.com/NTT-DATA-BECA/soft-skills-fe.git
 
 1. setup data in Database :
    uncomment the block of inserting data in mainfile : softSkillsManagementCoreApplication.java
